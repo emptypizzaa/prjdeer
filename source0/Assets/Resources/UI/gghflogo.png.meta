@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gghflogo_0: 236036883580672555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

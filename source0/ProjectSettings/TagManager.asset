@@ -50,8 +50,11 @@ TagManager:
   - name: PC
     uniqueID: 113739135
     locked: 0
-  - name: UI
+  - name: CAKE
     uniqueID: 1976306749
+    locked: 0
+  - name: UI
+    uniqueID: 1265243947
     locked: 0
   m_RenderingLayers:
   - Default
