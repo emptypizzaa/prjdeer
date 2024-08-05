@@ -486,6 +486,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 845212931258751982, guid: 498ab4aa679554e5fa05419997c436b2, type: 3}
+      propertyPath: pc2ai
+      value: 
+      objectReference: {fileID: 1436484618}
+    - target: {fileID: 845212931258751982, guid: 498ab4aa679554e5fa05419997c436b2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 446276920}
     - target: {fileID: 2117818203482434511, guid: 498ab4aa679554e5fa05419997c436b2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -784,11 +792,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1179647151511018417, guid: f7a4613fc52204dcd82147426322fdaa, type: 3}
       propertyPath: m_Name
-      value: pc2
+      value: AIpc2
       objectReference: {fileID: 0}
     - target: {fileID: 4432487582288062902, guid: f7a4613fc52204dcd82147426322fdaa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.98
+      value: -7.82
       objectReference: {fileID: 0}
     - target: {fileID: 4432487582288062902, guid: f7a4613fc52204dcd82147426322fdaa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -826,6 +834,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8932529894831943629, guid: f7a4613fc52204dcd82147426322fdaa, type: 3}
+      propertyPath: cake
+      value: 
+      objectReference: {fileID: 945241820}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

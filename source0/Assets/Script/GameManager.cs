@@ -1,57 +1,30 @@
 using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-
 
 public class GameManager : MonoBehaviour
 {
+    public Player pc1; // Assign in inspector
+    public Cake cake; // Assign in inspector (Note: Class name should be capitalized if it's a custom class)
+    public PC2AI pc2;  // Assign in inspector
+    public float moveDuration = 1.5f; // Duration for cake movement in seconds
 
-    public player pc1; // Assign in inspector
-    public cake cake; // Assign in inspector
-    public pc2AI pc2;  // Assign in inspector
-    public Vector3 originalPosition;
-    public Vector3 targetPosition;
-    public float dtime;
+    private Vector3 originalPosition;
+    private Vector3 targetPosition;
+    private bool isMoving = false;
 
     void Start()
     {
-        originalPosition = cake.transform.position;
-        targetPosition = pc2.transform.position;
-       
-       // StartCoroutine(MoveCake());
+        // Initialize the cake's original position
+       // originalPosition = cake.transform.position;
     }
 
-
-
-    void Upadte()
+    void Update()
     {
+        // The Update method should handle input and game logic rather than moving the cake
+        // Removed the dtime-based movement logic here
 
-        cake.transform.position = Vector3.Lerp(originalPosition, targetPosition, (dtime / 1.5f));
-        dtime += Time.deltaTime;
+        // Example: Handle player and AI inputs
+        // Assuming a method that gets called when a player or AI decides to move the cake
     }
-
-    private IEnumerator MoveCake()
-    {
-        while (true)
-        {
-            // Move cake towards pc2 over 1.5 seconds
-            float elapsedTime = 0;
-            originalPosition = cake.transform.position;
-             targetPosition = pc2.transform.position;
-
-            while (elapsedTime < 1.5f)
-            {
-                cake.transform.position = Vector3.Lerp(originalPosition, targetPosition, (elapsedTime / 1.5f));
-                elapsedTime += Time.deltaTime;
-                yield return null;
-            }
-
-            cake.transform.position = targetPosition; // Ensure it ends exactly at the target
-            yield return new WaitForSeconds(1.5f); // Wait for 1.5 seconds before moving again   //pc1 .cs ����
-                                                   //pc2(ai).cs
-                                                   //ui ����� ���� ������ �ǽð�
-                                                   //gamelogic states
-        }
-    }
+   
 }

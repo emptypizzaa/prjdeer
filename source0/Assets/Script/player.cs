@@ -1,30 +1,76 @@
 using UnityEngine;
 using System.Collections;
 
-public class player : MonoBehaviour
+
+public class Player : MonoBehaviour
 {
-    public GameObject cake; // Assign the cake GameObject in the inspector
+    public int HP = 25; // 플레이어의 초기 HP
+    public int maxHP = 25; // 최대 HP
+    public GameObject cake; // 케이크 오브젝트
+    public float cakeMoveDistance = 1.0f; // 케이크를 움직일 거리 (픽셀)
 
-
-
-    // Method to call when the "ATTAK" or "ATTAK2" buttons are clicked
-  /*  public void TakeCake()
+    // '+' 버튼 클릭 시 호출되는 메소드
+    public void OnPlusButtonPressed()
     {
-        // Check if cake is assigned
-        if (cake != null)
+        if (HP > 0)
         {
-            // Move cake towards player by 4 units
-           // StartCoroutine(MoveCake());
-            cake.transform.position = Vector3.MoveTowards(cake.transform.position, transform.position, 1);
+            HP--;
+            MoveCake(cakeMoveDistance);
+            Debug.Log("Player chooses +. HP: " + HP);
         }
         else
         {
-            Debug.LogError("Cake GameObject is not assigned.");
+            Debug.Log("Player has no HP left.");
         }
     }
-  */
- 
+    // '-' 버튼을 선택했을 때 호출되는 메소드
+    public void OnMinusButtonPressed()
+    {
+        if (HP < maxHP)
+        {
+            HP = Mathf.Min(HP + 2, maxHP);
+            MoveCake(-cakeMoveDistance); 
+            Debug.Log("Player chooses -. HP increased to: " + HP);
+        }
+        else
+        {
+            Debug.Log("Player's HP is already at maximum.");
+        }
+    }
 
+    // 케이크를 이동시키는 메소드
+    private void MoveCake(float distance)
+    {
+        Vector3 newPosition = cake.transform.position;
+        newPosition.x += distance; // 케이크를 오른쪽으로 이동
+        cake.transform.position = newPosition;
+    }
+}
+/*
+{
+    public GameObject cake; // Assign the cake GameObject in the inspector
+    public int HP = 25;
+    int atkpower = 1; // 공격력
+
+
+
+    
+    // 플레이어가 공격을 받을 때 호출되는 메소드
+    public void TakeDamage(int damage)
+    {
+        HP -= damage;
+        Debug.Log("Player takes damage: " + damage + ", HP remaining: " + HP);
+        if (HP <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Player died.");
+        // 사망 처리 로직 추가 (예: 게임 오버 화면, 재시작 옵션 등)
+    }
     // Method to call when an interaction button is pressed
     public void TakeCake()
     {
@@ -61,3 +107,4 @@ public class player : MonoBehaviour
 }
 
 
+*/

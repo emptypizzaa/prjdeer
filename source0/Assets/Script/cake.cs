@@ -1,43 +1,46 @@
 using System.Collections;
 using UnityEngine;
 
-public class cake : MonoBehaviour
+public class Cake : MonoBehaviour
 {
-    public Transform target; // Assign the target in the inspector (pc2)
-    public float moveDuration = 1.5f; // Duration of the move towards the target
+    public Transform pc1; // Assign the player's transform in the inspector
+    public Transform pc2; // Assign the AI's transform in the inspector
+    public float moveDistance = 1.0f; // Distance to move per HP cost
+    public float moveDuration = 0.5f; // Duration of the move towards the target
+    private Vector3 originalPosition;
 
     void Start()
     {
-        if (target == null)
-        {
-            Debug.LogError("Target not set for cake movement.");
-            return;
-        }
-        StartCoroutine(MoveToTargetRepeatedly());
+        originalPosition = transform.position; // Store the original position of the cake
     }
 
-    private IEnumerator MoveToTargetRepeatedly()
+    // Method to move the cake towards the player's side
+    public void MoveTowardsPlayer()
     {
-        while (true)
-        {
-            yield return MoveToTarget(); // Move to the target
-            yield return new WaitForSeconds(1.5f); // Wait for 1.5 seconds before the next move
-        }
+        Vector3 targetPosition = transform.position + Vector3.right * moveDistance;
+        StartCoroutine(MoveToPosition(targetPosition));
     }
 
-    private IEnumerator MoveToTarget()
+    // Method to move the cake towards the AI's side
+    public void MoveTowardsAI()
+    {
+        Vector3 targetPosition = transform.position + Vector3.left * moveDistance;
+        StartCoroutine(MoveToPosition(targetPosition));
+    }
+
+    // Coroutine to move the cake to the specified position
+    private IEnumerator MoveToPosition(Vector3 targetPosition)
     {
         Vector3 startPosition = transform.position;
-        Vector3 endPosition = target.position;
-        float elapsed = 0;
+        float elapsedTime = 0;
 
-        while (elapsed < moveDuration)
+        while (elapsedTime < moveDuration)
         {
-            transform.position = Vector3.Lerp(startPosition, endPosition, elapsed / moveDuration);
-            elapsed += Time.deltaTime;
+            transform.position = Vector3.Lerp(startPosition, targetPosition, elapsedTime / moveDuration);
+            elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        transform.position = endPosition; // Ensure it ends exactly at the target position
+        transform.position = targetPosition; // Ensure it ends exactly at the target position
     }
 }

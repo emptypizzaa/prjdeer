@@ -1,34 +1,73 @@
 using UnityEngine;
 
-public class pc2AI : MonoBehaviour
+public class PC2AI : MonoBehaviour
 {
- 
-    public Transform targetPosition; // The target position for the AI to move towards
-    public float moveSpeed = 2.0f; // Speed at which the AI moves
+    public int HP = 25; // AI 캐릭터의 초기 HP
+    public int maxHP = 25; // 최대 HP
+    public GameObject cake; // 케이크 오브젝트
+    public float cakeMoveDistance = 1.0f; // 케이크를 움직일 거리 (픽셀)
+    public float turnInterval = 2.0f; // 턴 간격 (초)
 
-    private void Update()
+    private void Start()
     {
-        // If the target position is set, move towards it
-        if (targetPosition != null)
+        // 1턴마다 행동을 결정하도록 반복 실행
+        InvokeRepeating(nameof(ChooseAction), 1.0f, turnInterval);
+    }
+
+    private void ChooseAction()
+    {
+        if (HP <= 0)
         {
-            MoveTowardsTarget();
+            Debug.Log("PC2AI has no HP left.");
+            return;
+        }
+
+        float randomValue = Random.Range(0f, 1f);
+        if (randomValue < 0.7f)
+        {
+            OnPlusButtonPressed();
+        }
+        else
+        {
+            OnMinusButtonPressed();
         }
     }
 
-    private void MoveTowardsTarget()
+    // '+' 버튼을 선택했을 때 호출되는 메소드
+    public void OnPlusButtonPressed()
     {
-        // Move towards the target position
-        Vector3 direction = (targetPosition.position - transform.position).normalized;
-        float step = moveSpeed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition.position, step);
+        if (HP > 0)
+        {
+            HP--;
+            MoveCake(-cakeMoveDistance); // AI는 케이크를 왼쪽으로 이동
+            Debug.Log("PC2AI chooses +. HP: " + HP);
+        }
+        else
+        {
+            Debug.Log("PC2AI has no HP left.");
+        }
     }
 
-    // Method to be called when the AI interacts with the player or other objects
-    public void InteractWithPlayer()
+    // '-' 버튼을 선택했을 때 호출되는 메소드
+    public void OnMinusButtonPressed()
     {
-        // Define interaction logic here, e.g., starting a dialogue, giving an item, etc.
-        Debug.Log("PC2AI interacts with the player.");
+        if (HP < maxHP)
+        {
+            HP = Mathf.Min(HP + 2, maxHP);
+            MoveCake(+cakeMoveDistance); // AI는 케이크를 왼쪽으로 이동
+            Debug.Log("PC2AI chooses -. HP increased to: " + HP);
+        }
+        else
+        {
+            Debug.Log("PC2AI's HP is already at maximum.");
+        }
     }
 
-
+    // 케이크를 이동시키는 메소드
+    private void MoveCake(float distance)
+    {
+        Vector3 newPosition = cake.transform.position;
+        newPosition.x += distance; // 케이크를 왼쪽으로 이동
+        cake.transform.position = newPosition;
+    }
 }
