@@ -1,0 +1,1266 @@
+fileFormatVersion: 2
+guid: d46f1ec500c00403f8c5809907f27f28
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cb208bfd0434709bbccede6929c420
+      internalID: -522845522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b133a0323aa1451399f41425e5d7e31
+      internalID: -976245928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0fb72a9ef284792bfeb8edae6af1c4
+      internalID: 1699409716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2628174c35ce4b89a1a211bea6f2afb
+      internalID: -1456972101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080ef017a35d84361814b8973d4a5013
+      internalID: 792400388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15879a994e7d645599a041d9c7744f3d
+      internalID: 44840816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a938b46e82f4c6ca79200fb7ab2bf0
+      internalID: -270217874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91df1c5e0541149c5809ce6939f0ff9c
+      internalID: 109345815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_8
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec1d08f82dfa4fb5870bc1fd6788aea
+      internalID: -524647487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_9
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a0da0b92a3d4620a6d4f9e943d92a0
+      internalID: 976076013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51577333c883c45e695fa58b65a88e00
+      internalID: -863544715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48466c09063145deb9b35c590a663f8
+      internalID: -1756112726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde8c88a8fea64f04bc3b83f010a0b34
+      internalID: -1379228333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e275ad0b9d3e492f958554f00ed041e
+      internalID: -330323625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_14
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7c90bfd71cc4b4d92e86c180daff60
+      internalID: -344304604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c706fda967a4d49349dfb345a525b2fa
+      internalID: -1139409292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7044fd62ebf4141b9a3a6aab5bef9a86
+      internalID: 1814626525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_17
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7822bf54f50c4475a52dfa7f86c8365
+      internalID: 2049349229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_18
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef0fe7771c0847c38e1d532b7cdcee2
+      internalID: -1514416898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_19
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b292bfbc78834a30a24487f06209ba8
+      internalID: -587297370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01973048474214cce956cf10cb076afa
+      internalID: -480815106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af704609f89d443083c64395e475a90
+      internalID: 2079745041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_22
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a700d830d7646b7a64949afee8cbff
+      internalID: -693769722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_23
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9063d7309be0e4276b66e8d5ad1af9f4
+      internalID: 777999800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_24
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d2a57c751204e0bb1e362d6d970eec
+      internalID: -449737160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef9808a73494734a823ae3d2d534b7
+      internalID: -122606875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_26
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67f4a88d46294ab68f7f9c3480febd7
+      internalID: 539788837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_27
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29591adabe8314b92b0307699dac9c3e
+      internalID: 991554026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_28
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c8214724c5145dc9d92f373379a06a
+      internalID: -1017010422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_29
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105358c55648445a4b01331b7f61666e
+      internalID: -1884526661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c56cbbb019c4199976635cb67f8788
+      internalID: 821034605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_31
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f21065c5ae154417bc40b5dbdef0081
+      internalID: 516128024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_32
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010a5a686bd51486b84d94cb28ac5c63
+      internalID: -333667229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_33
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b45a8403c7c94178acf3fe7c8b6c3cb
+      internalID: 385207298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_34
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a423c3024e1d845ea8bce38d62a15f70
+      internalID: -245704398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419c270fcfe5743b094384d68c27b3f4
+      internalID: 1322793120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26417eac5145b468aa3352177271eafc
+      internalID: -277836590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_37
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ea63d835c4a4338ae52638b7ea5afa
+      internalID: -2019510429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_38
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb85db475104f90aabda0b8fd542ae
+      internalID: -970351792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_39
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4734e25551840999ca3ad959f75582
+      internalID: -2112415300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ed6c596a8fc4f07a8bc505ceffbd56
+      internalID: -1720370116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79164ce2a7be7499aa688c5e37f28363
+      internalID: 398341944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f152f7d1134740258f1be8f7c1fd5aa
+      internalID: -767501917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_43
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e83ee2d9ee084d0f96f9f5b8a7fdcaa
+      internalID: -2109901540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_44
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534625509edd54777a4af5b42d07672d
+      internalID: 1598265473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769529fa78af54dc69019f45686d82d1
+      internalID: -35204268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_46
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1071a58cc7a84a5e90d7a118fa3583b
+      internalID: 2072058541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_47
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4f8c9a188384445b0f8ed3884c69da
+      internalID: 1637401485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_48
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b778c6b4b24484484b52001aed790a12
+      internalID: -2037490002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_49
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32c3e7c8ea3442df99539586a625755
+      internalID: 1424001830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_0: -522845522
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_1: -976245928
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_10: -863544715
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_11: -1756112726
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_12: -1379228333
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_13: -330323625
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_14: -344304604
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_15: -1139409292
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_16: 1814626525
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_17: 2049349229
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_18: -1514416898
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_19: -587297370
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_2: 1699409716
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_20: -480815106
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_21: 2079745041
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_22: -693769722
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_23: 777999800
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_24: -449737160
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_25: -122606875
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_26: 539788837
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_27: 991554026
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_28: -1017010422
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_29: -1884526661
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_3: -1456972101
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_30: 821034605
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_31: 516128024
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_32: -333667229
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_33: 385207298
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_34: -245704398
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_35: 1322793120
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_36: -277836590
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_37: -2019510429
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_38: -970351792
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_39: -2112415300
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_4: 792400388
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_40: -1720370116
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_41: 398341944
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_42: -767501917
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_43: -2109901540
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_44: 1598265473
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_45: -35204268
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_46: 2072058541
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_47: 1637401485
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_48: -2037490002
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_49: 1424001830
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_5: 44840816
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_6: -270217874
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_7: 109345815
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_8: -524647487
+      Mobile - THE iDOLMSTER Cinderella Girls - Miku Maekawa_9: 976076013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

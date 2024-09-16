@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d5eee69c42bde4ea0f127876b81d11, type: 3}
+  m_Name: 3-Beaver
+  m_EditorClassIdentifier: 
+  idleSprite: {fileID: 21300000, guid: 2b876333419a1294a9d254e78afed3c6, type: 3}
+  attackSprite: {fileID: 21300000, guid: 91fc69b913d17954c9f36793d5405211, type: 3}
+  jumpSprite: {fileID: 21300000, guid: 550c4dd397515c7498ef56dc315f53bc, type: 3}

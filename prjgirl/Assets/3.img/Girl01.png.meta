@@ -1,0 +1,1266 @@
+fileFormatVersion: 2
+guid: 5b376a1a2470b4df38bbe1c782e3b647
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bc53774fdf147c3964f57c95e54d3f
+      internalID: -1625281505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bd3f56dce6e4451b2b54166ba08568
+      internalID: -361303672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e7c842eb51443d8a8fe2e1128a69a7
+      internalID: -961888034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2abd862a6bc4b848138231c5bb3a6b
+      internalID: -218610805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_4
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1845.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dde654b0d8549b68ed23ee9eb8a427
+      internalID: 900314119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fa02ce2d17f468b84b56c888eefe64
+      internalID: 1008823039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ccf993be159488caf79c6dac05bf47
+      internalID: -937062529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2b45cea54ca4c82b2bfc626cca33e6
+      internalID: -1962557452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_8
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d82d5e8c67c4c58b748d12bddcfe0a
+      internalID: 211992064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_9
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1640.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171c9ad45903e4131ad9f97449f524a5
+      internalID: -1488533759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55666b66bbc36408eac2abfe4ccfc27f
+      internalID: 1265522072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af560d9c4008648ceae383a464a7082a
+      internalID: -1611688682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a02792a1f73442ba9d1bcfef718387
+      internalID: 1004993996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdacbaabe0e3b4f01895d2e0ed96d948
+      internalID: -2025355918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_14
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1435.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc2e39ebf6af48c0b09d3e0362dc5bb
+      internalID: 686913628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e76df0d95da4b0bb3789fcf0d77d4c
+      internalID: 850311439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c67db97e7104fdcba69414a351f6ef
+      internalID: 2028153541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_17
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b689582ba7f924e8e955ebfbd30f2c42
+      internalID: -935423490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_18
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068a5fb56fe8845729202a4917b1e8c0
+      internalID: 1517360237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_19
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1230.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbabdd68138de46fd8c47d510a1ecde4
+      internalID: 1979735588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d649318eff6e7499189bd8e1c7614111
+      internalID: 825256463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08aa69235464469b91827fab713b76a
+      internalID: 691431619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_22
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d5830e798d94b4586a29cc658fb18d
+      internalID: 1150150400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_23
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c269e7a6a22434d9c9018356490c68d6
+      internalID: 163721998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_24
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1025.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14ba6d9f6d2f40b3a3290f65a7307bb
+      internalID: 1839460156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9b7925a932649cf8d8e5fe09ced053
+      internalID: 978808018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_26
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3feb7e5a52c44308a2e0a490c99e283
+      internalID: -730070887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_27
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aacd5c9f0aa400892fd05bc061042b
+      internalID: 1222564792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_28
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dc86d6c09194a2984c135cfefa61b3
+      internalID: -451674819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_29
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 820.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8f47878af7044eeae8ac1b9fd99f0d
+      internalID: 667052361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6d4f71af9c944919e3719b890b6197
+      internalID: 1034298525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_31
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165532a18340f4a4b809d876fcb60d69
+      internalID: 2038838877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_32
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd12326ccc0754426958b2b3f113a251
+      internalID: 1545169444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_33
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c44a09b136524c0b8098bc4cd472d59
+      internalID: 1214834504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_34
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 615.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e833d4030bbc44709ce377791b2b169
+      internalID: -1681190616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07966670a73ec454388a52e8fabe3c0c
+      internalID: 1216613090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea2b5f26d61c492c90c6cb670eea2eb
+      internalID: -53944822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_37
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bf34db7f3df427585729fb9e85de51
+      internalID: 2095320798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_38
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645fe41414e864dd499f0c7c9d0d8983
+      internalID: -509859854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_39
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 410.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac867b882dda4776b91b100d2448d93
+      internalID: -284693468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d76ba02468584616965185eba0c2ea1
+      internalID: -35510379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fabc856e9874102ae95f64e0e5a577
+      internalID: -1598892751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5fceeea53af42eb9ee7f0a74afd2b5
+      internalID: 1723447723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_43
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f182fbd5a73fd4f2b9dd1bf8c3452500
+      internalID: 500916426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_44
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 205.9
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6549077fe85f4da280ec0bc44959f44
+      internalID: -1324134690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e9f84f1061046b88d8b19788223e5b
+      internalID: 1085242035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_46
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec576969b5e54105a514fac32d80100
+      internalID: 807350165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_47
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa0f10f01d0243f9a7bd60ee76a9ce2
+      internalID: -135840984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_48
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182ad2f48a4e348e79e4a6c234a3defb
+      internalID: -1970763843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_49
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0.8999939
+        width: 205.2
+        height: 205.1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9347f9edbd941e6aaf2d8c7308c046
+      internalID: -56410879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_0: -1625281505
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_1: -361303672
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_10: 1265522072
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_11: -1611688682
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_12: 1004993996
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_13: -2025355918
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_14: 686913628
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_15: 850311439
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_16: 2028153541
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_17: -935423490
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_18: 1517360237
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_19: 1979735588
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_2: -961888034
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_20: 825256463
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_21: 691431619
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_22: 1150150400
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_23: 163721998
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_24: 1839460156
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_25: 978808018
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_26: -730070887
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_27: 1222564792
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_28: -451674819
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_29: 667052361
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_3: -218610805
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_30: 1034298525
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_31: 2038838877
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_32: 1545169444
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_33: 1214834504
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_34: -1681190616
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_35: 1216613090
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_36: -53944822
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_37: 2095320798
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_38: -509859854
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_39: -284693468
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_4: 900314119
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_40: -35510379
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_41: -1598892751
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_42: 1723447723
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_43: 500916426
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_44: -1324134690
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_45: 1085242035
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_46: 807350165
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_47: -135840984
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_48: -1970763843
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_49: -56410879
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_5: 1008823039
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_6: -937062529
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_7: -1962557452
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_8: 211992064
+      Mobile - THE iDOLMSTER Cinderella Girls - Mio Honda_9: -1488533759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
