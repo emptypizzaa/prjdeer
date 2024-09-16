@@ -1,197 +1,164 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-public class GameManager : MonoBehaviour
+using UnityEngine.SceneManagement;
+
+public enum GameState
 {
-
-
-    public Player pc1; // PC1의 Player 스크립트
-    public Cake cake; // Cake 스크립트
-    public PC2AI pc2;  // PC2의 AI 스크립트
-    public Transform p1Circle; // PC1의 원 위치
-    public Transform p2Circle; // PC2의 원 위치
-    public float moveDuration = 1.5f; // 케이크 이동 시간
-
- 
-    public float checkInterval = 1.2f; // 승리 조건 체크 간격
-
-    private float timeSinceLastCheck = 0f;
-
-
-
-    private Vector3 originalPosition;//ㅁㅜㅓㅇㅔㅇㅗㅐㅁㄴㅇㅈㅐ
-    private Vector3 targetPosition;
-    private bool isMoving = false;
-
-    void Start()
-    {
-
-        // 게임 초기화 시 필요한 작업 수행
-        // Initialize the cake's original position
-        // originalPosition = cake.transform.position;
-    }
-
-    void Update()
-    {
-        // The Update method should handle input and game logic rather than moving the cake
-        // Removed the dtime-based movement logic here
-
-        // Example: Handle player and AI inputs
-        // Assuming a method that gets called when a player or AI decides to move the cake
-        // 시간 경과를 추적
-        timeSinceLastCheck += Time.deltaTime;
-
-        // 1.2초가 경과하면 승리 조건 체크
-        if (timeSinceLastCheck >= checkInterval)
-        {
-            CheckVictoryCondition();
-            timeSinceLastCheck = 0f; // 경과 시간 리셋
-        }
-    }
-    void CheckVictoryCondition()
-    {
-        float distanceToP1 = Vector3.Distance(cake.transform.position, p1Circle.position);
-        float distanceToP2 = Vector3.Distance(cake.transform.position, p2Circle.position);
-
-        if (distanceToP1 < 0.5f) // PC1 원 안에 도달
-        {
-            Debug.Log("PC1 Wins!");
-            GameClear(pc1);
-        }
-        else if (distanceToP2 < 0.5f) // PC2 원 안에 도달
-        {
-            Debug.Log("PC2 Wins!");
-           // GameClear(pc2);
-        }
-    }
-
-    void GameClear(Player winner)
-    {
-        Time.timeScale = 0f;
-        // 승리 조건에 따라 게임 결과 화면 출력 등 추가 작업 수행
-        Debug.Log(winner.name + " is the winner!");
-        // 승자에 따른 추가 로직
-    }
+    Ready,
+    Play,
+    Pause,
+    Clear,
+    Gameover,
+    FinalResult,
+    AskEnd,
+    DieDeley
 }
-/*
- * 
- * using System.Collections;
-using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public Player pc1; // PC1의 Player 스크립트
-    public Player pc2;  // PC2의 AI 스크립트
-    public Cake cake; // Cake 스크립트
+    [Header("Grid System")]
+    [SerializeField] private GameObject gridCellPrefab; // 그리드 셀의 프리팹
+    private GameObject[,] gridObjects; // 6x8 그리드 객체 배열
+    public int gridWidth = 9;
+    public int gridHeight = 9;
 
-    public Transform p1Circle; // PC1의 원 위치
-    public Transform p2Circle; // PC2의 원 위치
+    // Singleton implementation
+    public static GameManager Instance;
 
-    public GameObject winPopup; // 승리 팝업창 (Canvas의 UI Element)
+    // UI Manager
+    public UIcode UIManager;
 
-    public Text winText; // 승리 텍스트 (UI Text)
+    // Gameplay variables
+    public GameState GS;
+    public int nGameScore_current;
+    public int nGameScore_Best;
+    public float fGametime;
+    public static int nLevel;
+    public float LeftLimit = -8.9f;
+    public float RightLimit = 9;
+    public float TopLimit = 30f;
+    public float BottomLimit = -9f;
 
-    void Start()
+    private void Awake()
     {
-        winPopup.SetActive(false); // 시작 시 승리 팝업 비활성화
+        // Singleton Pattern
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
     }
 
-    void Update()
+    private void InitializeGame()
     {
-        // Trigger로 대체 가능
-        CheckVictoryCondition();
+        Debug.LogFormat("Loading a new level {0}...", nLevel);
+        GS = GameState.Ready;
+        nGameScore_current = 0;
+        nGameScore_Best = 0;
+        fGametime = 0f;
+        Time.timeScale = 1f;
+
+        LeftLimit = -8.9f;
+        RightLimit = 9;
+        TopLimit = 30f;
+        BottomLimit = -9f;
+        if (GameManager.nLevel >= 1)
+            SoundManager.Instance.PlayBackgroundMusic(nLevel);
     }
 
-    void CheckVictoryCondition()
+    private void Start()
     {
-        float distanceToP1 = Vector3.Distance(cake.transform.position, p1Circle.position);
-        float distanceToP2 = Vector3.Distance(cake.transform.position, p2Circle.position);
+        UIManager = FindObjectOfType<UIcode>();
+        if (UIManager == null)
+            Debug.LogError("UIManager not found.");
 
-        if (distanceToP1 < 0.5f) // PC1 원 안에 도달
+        InitializeGame();
+        GenerateGrid();
+    }
+
+    private void GenerateGrid()
+    {
+        gridObjects = new GameObject[gridWidth, gridHeight];
+
+        float startingX = (-gridWidth / 2.0f) + 0.5f;
+        float startingY = (-gridHeight / 2.0f) + 0.5f;
+        float borderThickness = 0.05f; // 테두리 두께 설정
+
+        for (int x = 0; x < gridWidth; x++)
         {
-            GameClear(pc1);
-        }
-        else if (distanceToP2 < 0.5f) // PC2 원 안에 도달
-        {
-            GameClear(pc2);
+            for (int y = 0; y < gridHeight; y++)
+            {
+                GameObject cell = Instantiate(gridCellPrefab, new Vector3(startingX + x, startingY + y, 0), Quaternion.identity, transform);
+                gridObjects[x, y] = cell;
+
+                // 테두리 생성
+                CreateBorder(cell.transform, borderThickness);
+            }
         }
     }
 
-    void GameClear(Player winner)
+    private void CreateBorder(Transform parent, float thickness)
     {
-        Time.timeScale = 0f; // 게임 일시 정지
-        winPopup.SetActive(true); // 승리 팝업창 활성화
+        GameObject top = new GameObject("Top Border");
+        GameObject bottom = new GameObject("Bottom Border");
+        GameObject left = new GameObject("Left Border");
+        GameObject right = new GameObject("Right Border");
 
-        if (winner == pc1)
+        GameObject[] borders = { top, bottom, left, right };
+
+        foreach (GameObject border in borders)
         {
-            winText.text = "Player 1 Wins!";
+            border.transform.SetParent(parent);
+            border.AddComponent<SpriteRenderer>().color = Color.blue;
         }
-        else if (winner == pc2)
-        {
-            winText.text = "Player 2 Wins!";
-        }
+
+        top.transform.localScale = new Vector3(1, thickness, 1);
+        bottom.transform.localScale = new Vector3(1, thickness, 1);
+        left.transform.localScale = new Vector3(thickness, 1, 1);
+        right.transform.localScale = new Vector3(thickness, 1, 1);
+
+        top.transform.localPosition = new Vector3(0, 0.5f - thickness / 2, 0);
+        bottom.transform.localPosition = new Vector3(0, -0.5f + thickness / 2, 0);
+        left.transform.localPosition = new Vector3(-0.5f + thickness / 2, 0, 0);
+        right.transform.localPosition = new Vector3(0.5f - thickness / 2, 0, 0);
     }
+
+    public Vector2 GetGridBoundary()
+    {
+        float halfWidth = gridWidth / 2.0f;
+        float halfHeight = gridHeight / 2.0f;
+
+        return new Vector2(halfWidth, halfHeight);
+    }
+
+    public void ClearGame()
+    {
+        nLevel += 1;
+
+        if (nLevel < 6)
+            SceneManager.LoadScene(nLevel);
+        else
+            SceneManager.LoadScene(0);
+    }
+
+    public void GameOver()
+    {
+        SoundManager.Instance.GameOver();
+        SceneManager.LoadScene(0);   //GS = GameState.Gameover;
+    }
+
+    public void AddScore(int scoreToAdd)
+    {
+        nGameScore_current += scoreToAdd;
+    }
+
+    public void AddScore()
+    {
+        nGameScore_current += 1;
+    }
+
+    // ... [Other methods remain the same as your original script]
 }
-*/
 
 
-/*using System.Collections;
-using UnityEngine;
 
-public class GameManager : MonoBehaviour
-{
-    public Player pc1; // PC1의 Player 스크립트
-    public Cake cake; // Cake 스크립트
-    public PC2AI pc2;  // PC2의 AI 스크립트
-    public Transform p1Circle; // PC1의 원 위치
-    public Transform p2Circle; // PC2의 원 위치
-    public float moveDuration = 1.5f; // 케이크 이동 시간
-    public float checkInterval = 1.2f; // 승리 조건 체크 간격
-
-    private float timeSinceLastCheck = 0f;
-
-    void Start()
-    {
-        // 필요한 초기화 작업
-    }
-
-    void Update()
-    {
-        // 시간 경과를 추적
-        timeSinceLastCheck += Time.deltaTime;
-
-        // 1.2초가 경과하면 승리 조건 체크
-        if (timeSinceLastCheck >= checkInterval)
-        {
-            CheckVictoryCondition();
-            timeSinceLastCheck = 0f; // 경과 시간 리셋
-        }
-    }
-
-    void CheckVictoryCondition()
-    {
-        float distanceToP1 = Vector3.Distance(cake.transform.position, p1Circle.position);
-        float distanceToP2 = Vector3.Distance(cake.transform.position, p2Circle.position);
-
-        if (distanceToP1 < 0.5f) // PC1 원 안에 도달
-        {
-            Debug.Log("PC1 Wins!");
-            GameClear(pc1);
-        }
-        else if (distanceToP2 < 0.5f) // PC2 원 안에 도달
-        {
-            Debug.Log("PC2 Wins!");
-            GameClear(pc2);
-        }
-    }
-
-    void GameClear(Player winner)
-    {
-        Time.timeScale = 0f;
-        // 승리 조건에 따라 게임 결과 화면 출력 등 추가 작업 수행
-        Debug.Log(winner.name + " is the winner!");
-        // 승자에 따른 추가 로직
-    }
-}
-*/

@@ -1,110 +1,105 @@
-using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 
 public class Player : MonoBehaviour
 {
-    public int HP = 25; // 플레이어의 초기 HP
-    public int maxHP = 25; // 최대 HP
-    public GameObject cake; // 케이크 오브젝트
-    public float cakeMoveDistance = 1.0f; // 케이크를 움직일 거리 (픽셀)
+    private Rigidbody2D rb;
+    private Vector2 direction;
+    public float moveDistance = 1f; // Distance Pac-Man moves per key press
 
-    // '+' 버튼 클릭 시 호출되는 메소드
-    public void OnPlusButtonPressed()
+    Item[] items;
+
+    public Movement2D movement2D;
+
+    private void Awake()
     {
-        if (HP > 0)
-        {
-            HP--;
-            MoveCake(cakeMoveDistance);
-            Debug.Log("Player chooses +. HP: " + HP);
-        }
-        else
-        {
-            Debug.Log("Player has no HP left.");
-        }
+        movement2D = GetComponent<Movement2D>();
     }
-    // '-' 버튼을 선택했을 때 호출되는 메소드
-    public void OnMinusButtonPressed()
+
+    private void Start()
     {
-        if (HP < maxHP)
+        rb = GetComponent<Rigidbody2D>();
+        direction = Vector2.right; // Initial Direction to the right.  
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("GridCell"))
         {
-            HP = Mathf.Min(HP + 2, maxHP);
-            MoveCake(-cakeMoveDistance); 
-            Debug.Log("Player chooses -. HP increased to: " + HP);
-        }
-        else
-        {
-            Debug.Log("Player's HP is already at maximum.");
+            Cell cellComponent = collision.gameObject.GetComponent<Cell>();
+            if (cellComponent != null)
+            {
+                cellComponent.ActivateCell();
+            }
         }
     }
 
-    // 케이크를 이동시키는 메소드
-    private void MoveCake(float distance)
+
+    void Move()
     {
-        Vector3 newPosition = cake.transform.position;
-        newPosition.x += distance; // 케이크를 오른쪽으로 이동
-        cake.transform.position = newPosition;
+        rb.MovePosition((Vector2)transform.position + (direction * moveDistance * Time.fixedDeltaTime));
     }
-}
-/*
-{
-    public GameObject cake; // Assign the cake GameObject in the inspector
-    public int HP = 25;
-    int atkpower = 1; // 공격력
 
-
-
-    
-    // 플레이어가 공격을 받을 때 호출되는 메소드
-    public void TakeDamage(int damage)
+    private void MoveDirection(Vector2 dir)
     {
-        HP -= damage;
-        Debug.Log("Player takes damage: " + damage + ", HP remaining: " + HP);
-        if (HP <= 0)
+        Vector2 newPosition = (Vector2)this.transform.position + dir * moveDistance;
+        transform.position = newPosition;
+    }
+    // private void FixedUpdate()   {    Move();                                }
+
+    private void Update()
+    {
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
+        /*      if (x != 0 || y != 0)
+      {        movement2D.MoveDirection = new Vector3(x, y, 0);}*/
+
+
+        Vector2 newPosition = transform.position;
+
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            Die();
+            //newPosition += Vector2.up * moveDistance;
+            MoveUp();
         }
-    }
-
-    private void Die()
-    {
-        Debug.Log("Player died.");
-        // 사망 처리 로직 추가 (예: 게임 오버 화면, 재시작 옵션 등)
-    }
-    // Method to call when an interaction button is pressed
-    public void TakeCake()
-    {
-        // Check if the cake is assigned
-        if (cake != null)
+        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            // Move the cake towards the player
-            StartCoroutine(MoveCakeToPlayer());
+            //movement2D.MoveDirection = Vector3.down;
+
+            MoveDown();
         }
-        else
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            Debug.LogError("Cake GameObject is not assigned.");
+            //movement2D.MoveDirection = Vector3.left;
+            MoveLeft();
         }
-    }
-
-    private IEnumerator MoveCakeToPlayer()
-    {
-        float elapsedTime = 0f;
-        float duration = 1.5f; // Time in seconds it takes for the cake to move
-        Vector3 originalPosition = cake.transform.position;
-        Vector3 targetPosition = transform.position + new Vector3(0, 0, -1); // Slight offset to place the cake in front of the player
-
-        while (elapsedTime < duration)
+        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            cake.transform.position = Vector3.Lerp(originalPosition, targetPosition, elapsedTime / duration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
+            MoveRight();
         }
 
-        cake.transform.position = targetPosition; // Ensure the cake is exactly at the target position
+
+
+    }
+    public void MoveUp()
+    {
+        MoveDirection(Vector2.up);
     }
 
+    public void MoveDown()
+    {
+        MoveDirection(Vector2.down);
+    }
+
+    public void MoveLeft()
+    {
+        MoveDirection(Vector2.left);
+    }
+
+    public void MoveRight()
+    {
+        MoveDirection(Vector2.right);
+    }
 
 }
-
-
-*/

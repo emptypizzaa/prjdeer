@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public Player player;
+    public PC1 PC1;
     public PC2AI pc2ai;
 
     public Text nLevel; // Modified to pcRotText
@@ -15,11 +15,12 @@ public class UIManager : MonoBehaviour
 
     public Image plus_button;
     public Image minus_button;
-    
     public Image multi_button;
     public Image chaos_button;
 
 
+    public Image pc1win;
+    public Image pc2win;
 
 
     public Button StartButton; // Modified to shotButton
@@ -33,11 +34,21 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-       // player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        // player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
+        if (pc1win != null)
+        {
+            pc1win.transform.position = new Vector3(999, 480);
+            pc1win.gameObject.SetActive(false);
+        }
+        if (pc2win != null)
+        {
+            pc2win.transform.position = new Vector3(1024, 500);
+            pc2win.gameObject.SetActive(false);
+        }
         if (clearImage != null)
         {
-            clearImage.transform.position = new Vector3(580, 1180);
+            clearImage.transform.position = new Vector3(0, 0);
             clearImage.gameObject.SetActive(false);
         }
 
@@ -54,7 +65,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
 
-        P1HP.text = player.HP.ToString();
+        P1HP.text = PC1.HP.ToString();
         P2HP.text = pc2ai.HP.ToString();
 
     }
@@ -65,6 +76,29 @@ public class UIManager : MonoBehaviour
         clearImage.gameObject.SetActive(true);
 
     }
+
+    public void pc1winpopup(int i)
+    {
+        if (i == 1)
+        {
+            Time.timeScale = 0f;
+            pc1win.gameObject.SetActive(true);
+        }
+  else      if (i == 2)
+        {
+            Time.timeScale = 0f;
+            pc2win.gameObject.SetActive(true);
+        }
+
+    }
+
+    public void pc2winpopup()
+    {
+        Time.timeScale = 0f;
+        pc2win.gameObject.SetActive(true);
+
+    }
+
 
 }
 
