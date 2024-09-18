@@ -51,6 +51,7 @@ public class GameManager : MonoBehaviour
 
     private void InitializeGame()
     {
+
         Debug.LogFormat("Loading a new level {0}...", nLevel);
         GS = GameState.Ready;
         nGameScore_current = 0;

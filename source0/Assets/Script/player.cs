@@ -46,7 +46,6 @@ public class Player : MonoBehaviour
         Vector2 newPosition = (Vector2)this.transform.position + dir * moveDistance;
         transform.position = newPosition;
     }
-    // private void FixedUpdate()   {    Move();                                }
 
     private void Update()
     {

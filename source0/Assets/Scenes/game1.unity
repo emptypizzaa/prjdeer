@@ -562,6 +562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas_ingame
       objectReference: {fileID: 0}
+    - target: {fileID: 6375282650312514968, guid: cd1d6d00c10aa47dc9e2a38d3a55cc86, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 8959797494968585099}
     - target: {fileID: 8468470262930875227, guid: cd1d6d00c10aa47dc9e2a38d3a55cc86, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -989,6 +993,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6759eafd360d24ae39ddecf701a5b793, type: 3}
+--- !u!114 &8959797494968585099 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8188100000625829951, guid: 6759eafd360d24ae39ddecf701a5b793, type: 3}
+  m_PrefabInstance: {fileID: 8959797494968585098}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c55687a757b4b3a8d41b2221182031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

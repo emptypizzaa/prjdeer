@@ -26,19 +26,10 @@ public class UIcode : MonoBehaviour
     public Button clearButton;
     public Button gameoverButton;
     public Image clearImage; // Modified to clearImage
-    public Image StartImage;
-
 
     void Start()
     {
-        StartImage.transform.position = new Vector3(560, 1250);        //    StartImage.gameObject.SetActive(false);
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-
-        if (null == StartButton)
-            StartButton = transform.Find("StartButton").gameObject.GetComponent<Button>();
-        // clearButton = transform.Find("clearimg").gameObject.GetComponentInChildren<Button>();
-        // gameoverButton = transform.Find("gameoverimg").gameObject.GetComponentInChildren<Button>();
-        //  clearButton.onClick.AddListener(GameManager.Instance.ClearGame);// StartButton.onClick.AddListener(ballrumble_PC.OnShot);
+      player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
 
 
         if (clearImage != null)
@@ -55,7 +46,6 @@ public class UIcode : MonoBehaviour
     public void GameStart()
     {
         Time.timeScale = 1f;
-        StartImage.gameObject.SetActive(false);
 
     }
 
